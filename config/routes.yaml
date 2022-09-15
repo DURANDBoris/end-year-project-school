@@ -1,0 +1,168 @@
+# # User
+# getUser:
+#     path:       /User/{id}
+#     controller: App\Controller\UserController::getUser
+#     methods:    GET|HEAD
+
+# modUser:
+#     path:       /User/{id}
+#     controller: App\Controller\UserController::modUser
+#     methods:    PUT
+
+# addUser:
+#     path:       /User
+#     controller: App\Controller\UserController::addUser
+#     methods:    POST
+
+# delUser:
+#     path:       /User/{id}
+#     controller: App\Controller\UserController::delUser
+#     methods:    DELETE
+
+    
+# # ORGANIZATIONS
+# getOrganizations:
+#     path:       /Organizations/{id}
+#     controller: App\Controller\OrganizationsController::getOrganizations
+#     methods:    GET|HEAD
+
+# modOrganizations:
+#     path:       /Organizations/{id}
+#     controller: App\Controller\OrganizationsController::modOrganizations
+#     methods:    PUT
+
+# addOrganizations:
+#     path:       /Organizations
+#     controller: App\Controller\OrganizationsController::addOrganizations
+#     methods:    POST
+
+# delOrganizations:
+#     path:       /Organizations/{id}
+#     controller: App\Controller\OrganizationsController::delOrganizations
+#     methods:    DELETE
+    
+    
+# # FOLDER
+# getFolder:
+#     path:       /Folder/{id}
+#     controller: App\Controller\FolderController::getFolder
+#     methods:    GET|HEAD
+
+# modFolder:
+#     path:       /Folder/{id}
+#     controller: App\Controller\FolderController::modFolder
+#     methods:    PUT
+
+# addFolder:
+#     path:       /Folder
+#     controller: App\Controller\FolderController::addFolder
+#     methods:    POST
+
+# delFolder:
+#     path:       /Folder/{id}
+#     controller: App\Controller\FolderController::delFolder
+#     methods:    DELETE
+    
+    
+# # DOCUMENTS
+# getDocuments:
+#     path:       /Documents/{id}
+#     controller: App\Controller\DocumentsController::getDocuments
+#     methods:    GET|HEAD
+
+# modDocuments:
+#     path:       /Documents/{id}
+#     controller: App\Controller\DocumentsController::modDocuments
+#     methods:    PUT
+
+# addDocuments:
+#     path:       /Documents
+#     controller: App\Controller\DocumentsController::addDocuments
+#     methods:    POST
+
+# delDocuments:
+#     path:       /Documents/{id}
+#     controller: App\Controller\DocumentsController::delDocuments
+#     methods:    DELETE
+    
+    
+# # RULES
+# getRules:
+#     path:       /Rules/{id}
+#     controller: App\Controller\RulesController::getRules
+#     methods:    GET|HEAD
+
+# modRules:
+#     path:       /Rules/{id}
+#     controller: App\Controller\RulesController::modRules
+#     methods:    PUT
+
+# addRules:
+#     path:       /Rules
+#     controller: App\Controller\RulesController::addRules
+#     methods:    POST
+
+# delRules:
+#     path:       /Rules/{id}
+#     controller: App\Controller\RulesController::delRules
+#     methods:    DELETE
+    
+    
+# # INDICIES
+# getIndicies:
+#     path:       /Indicies/{id}
+#     controller: App\Controller\IndiciesController::getIndicies
+#     methods:    GET|HEAD
+
+# modIndicies:
+#     path:       /Indicies/{id}
+#     controller: App\Controller\IndiciesController::modIndicies
+#     methods:    PUT
+
+# addIndicies:
+#     path:       /Indicies
+#     controller: App\Controller\IndiciesController::addIndicies
+#     methods:    POST
+
+# delIndicies:
+#     path:       /Indicies/{id}
+#     controller: App\Controller\IndiciesController::delIndicies
+#     methods:    DELETE
+    
+    
+# # HISTORY
+# getHistory:
+#     path:       /History/{id}
+#     controller: App\Controller\HistoryController::getHistory
+#     methods:    GET|HEAD
+
+# modHistory:
+#     path:       /History/{id}
+#     controller: App\Controller\HistoryController::modHistory
+#     methods:    PUT
+
+# addHistory:
+#     path:       /History
+#     controller: App\Controller\HistoryController::addHistory
+#     methods:    POST
+
+# delHistory:
+#     path:       /History/{id}
+#     controller: App\Controller\HistoryController::delHistory
+#     methods:    DELETE
+
+
+# # FILES
+# download:
+#     path: /Download/{idOrganization}/{idFolder}/{idDocument}
+#     controller: App\Controller\FileLoaderController::download
+#     #methods: GET
+    
+# upload:
+#     path: /Upload/{idOrganization}/{idFolder}/{idDocument}
+#     controller: App\Controller\FileLoaderController::upload
+#     methods: POST
+
+api_login_check:
+  path: /login
+  
